@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+#header {
+    text-align: center;
+    font-size: 6vh;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(200,200,200);
+}
+
+#header:hover {
+    cursor:pointer;
+}
+
+#table {
+    justify-content: center;
+    display: grid;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.sqr {
+    margin: 4px;
+    width: 10vh;
+    height: 10vh;
+}
